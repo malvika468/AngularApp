@@ -1,0 +1,123 @@
+﻿.header-div {
+    background-image: linear-gradient(to right,darkblue,blue);
+    color: white;
+}
+.header-logo {
+    width: 302px;
+    height: 80px;
+    margin-left: calc((100% - 302px) / 2);
+}
+.SignUp{
+    background-color: #f9f9f9;
+}
+html,.ng-app{
+    height:100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.rectangle1 {
+    width: 700px;
+    height: 420px;
+    margin-bottom: calc((100% - 420px) / 2);
+    border-radius: 2px;
+    box-shadow: 0 10px 20px 0 rgba(210, 210, 210, 0.5);
+    background-color: #ffffff;
+}
+.rectangle2 {
+    width: 420px;
+    height: 420px;
+    margin-left: 100px;
+    margin-bottom: calc((100% - 420px) / 2);
+    border-radius: 2px;
+    box-shadow: 0 10px 20px 0 rgba(210, 210, 210, 0.5);
+    background-color: #ffffff;
+}
+.column {
+    float: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.HAVE-AN-ACCOUNT-JUS {
+    width: 300px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #343534;
+}
+
+.form-popup {
+    display: none;
+    width: 1000px;
+    height: 500px;
+    margin-left: calc((100% - 1000px) / 2  + 100px ) ;
+    margin-top:0px;
+}
+.form-container {
+    width: 600px;
+    padding: 10px;
+    background-color: white;
+    margin-top:0px;
+}
+.form-container .cancel {
+    background-color: #4CAF50;
+    width: 80px;
+    height: 20px;
+    margin-top: 2px;
+    text-align: center;
+    padding: 1px 1px;
+    margin-left:140px;
+}
+.form-container .btn:hover, .open-button:hover {
+      opacity: 1;
+}
+.open-button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 70px;
+    height: 20px;
+    margin-left: calc((100% - 1000px) / 2);
+    margin-top: 5px;
+}
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding:0px;
+    height:20px;
+    border: none;
+    background: #f1f1f1;
+}
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    margin-top:2px;
+    width: 80px;
+    height: 20px;
+    opacity: 0.8;
+    text-align: center;
+    padding: 1px 1px;
+    margin-left:150px;
+}
+
+.ui-grid .ui-grid-render-container-body .ui-grid-viewport {
+    overflow-x: auto !important;
+}
+.form-div {
+    width: 350px;
+    margin-left: calc((100% - 350px) / 2);
+}
+.btn-default{
+    background-color:lightseagreen !important;
+}

@@ -1,0 +1,52 @@
+﻿<div style="background-color:#f2dede;height:100%;">
+
+<div style="height:15%;background-image: linear-gradient(to right,blue,lightblue);">
+        <span class="header-logo">
+            <img src="..\styling\img\logo.png" alt="Gamma">
+        </span>    
+</div>
+
+<div style="height:5%">
+    <div style="float:left; margin-left: calc((100% - 1000px) / 2); font-weight:bold;">WORK EXPERIENCE</div>
+    <div style="float:right; margin-right: calc((100% - 1000px) / 2); font-weight:bold; color:cornflowerblue">Welcome {{currentname}}</div>
+</div>
+
+  <div style="height:20%">
+        <div ui-grid="gridOptions" style="height:100%;width:1000px;margin-left:calc((100% - 1000px) / 2);"></div>
+  </div>
+
+  <div style="height:60%">
+
+      <button class="open-button" ng-click="openForm()">Add  <i class="fa fa-plus"></i></button>
+
+      <div class="form-popup" id="myForm">
+          <form class="form-container">
+
+              <label for="name"><b>Company Name</b></label>
+              <input type="text" name="name" ng-model="company" required>
+
+              <label for="title"><b>Title</b></label>
+              <input type="text" name="title" ng-model="title" required>
+
+              <label for="date"><b>Start Date</b></label>
+              <input type="text" name="date" ng-model="date" required>
+
+              <label for="location"><b>Location</b></label>
+              <input type="text" name="location" ng-model="location" required>
+
+              <label for="description"><b>Description</b></label>
+              <input type="text" name="desc" ng-model="description" required>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" name="email" ng-model="email" required>
+
+
+              <button type="submit" class="btn" ng-click="AddDetail()">Ok</button>
+              <button type="button" class="btn cancel" ng-click="closeForm()">Close</button>
+
+              <div style="color:red" ng-if="errorMessage">{{Message}}</div>
+          </form>
+      </div>
+  </div> 
+</div>
+

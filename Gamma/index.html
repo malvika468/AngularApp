@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html ng-app="gammaApp">
+<head>
+    <meta charset="utf-8" />
+    <!--scripts-->
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="styling/css.css">
+    <!--AppInstantiationScripts-->
+
+    <script src="gammaApp.instantiate.js"></script>
+    <script src="gammaApp.uirouter.js"></script>
+
+    <!--External Refernces-->
+
+    <script src="http://ui-grid.info/release/ui-grid.js"></script>
+    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Controllers & Services-->
+    <script src="controllers/login.js"></script>
+    <script src="controllers/signup.js"></script>
+    <script src="controllers/workExp.js"></script>
+    <script src="services/APIWrapper.js"></script>
+
+    <title></title>
+</head>
+<body style="height:100% ; overflow:hidden">
+    <div ui-view style="height:100%"></div>
+</body>
+</html>
